@@ -96,7 +96,7 @@ export default function Menu() {
             <Info size={14} />
             About TropIC
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/aCJWT2Zhjr">
+          <MenuItem id="link" href="https://discord.gg/wggtbWjsav">
             <MessageCircle size={14} />
             Discord
           </MenuItem>
