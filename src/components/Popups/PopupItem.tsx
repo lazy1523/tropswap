@@ -76,9 +76,9 @@ export default function PopupItem({
     popupContent = <TransactionPopup hash={hash} success={success} summary={summary} />
   } else if ('listUpdate' in content) {
     const {
-      listUpdate: { listUrl, oldList, newList, auto }
+      listUpdate: { listUrl, oldList, newList }
     } = content
-    popupContent = <ListUpdatePopup popKey={popKey} listUrl={listUrl} oldList={oldList} newList={newList} auto={auto} />
+    popupContent = <ListUpdatePopup popKey={popKey} listUrl={listUrl} oldList={oldList} newList={newList} auto={false} />
   }
 
   const faderStyle = useSpring({
